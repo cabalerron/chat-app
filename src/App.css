@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  padding-bottom: 60px; /* Add padding to the bottom to make space for the footer */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+main {
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.message.sent {
+  justify-content: flex-end;
+}
+
+.message.received {
+  justify-content: flex-start;
+}
+
+.message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 10px;
+}
